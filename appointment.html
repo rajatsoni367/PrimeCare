@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Appointment — HealthCare</title>
+
+  <style>
+    /* Global */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+    }
+
+    body {
+      background: #f8f9fb;
+      color: #222;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    nav .logo {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      transition: 0.2s;
+    }
+
+    nav ul li a:hover {
+      color: #4b73ff;
+    }
+
+    /* Form container */
+    .form-container {
+      max-width: 400px;
+      margin: 70px auto;
+      background: #fff;
+      padding: 35px;
+      border-radius: 12px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .form-container h2 {
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+
+    .form-container input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+
+    .form-container button {
+      width: 100%;
+      padding: 12px;
+      background: #4b73ff;
+      color: #fff;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .form-container button:hover {
+      background: #3c5ed8;
+    }
+  </style>
+
+</head>
+<body>
+
+  <nav>
+    <div class="logo">HealthCare</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <div class="form-container">
+    <h2>Book Appointment</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Email">
+    <input type="text" placeholder="Preferred Doctor">
+    <input type="date">
+    <button>Confirm Appointment</button>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services — HealthCare</title>
+
+  <style>
+    /* Global */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+    }
+
+    body {
+      background: #f8f9fb;
+      color: #222;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    nav .logo {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      transition: 0.2s;
+    }
+
+    nav ul li a:hover {
+      color: #4b73ff;
+    }
+
+    /* Section */
+    .section {
+      padding: 70px 50px;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 25px;
+    }
+
+    /* Services Grid */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 30px;
+    }
+
+    .service-card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #e5e5e5;
+      font-size: 1.1rem;
+    }
+  </style>
+
+</head>
+<body>
+
+  <nav>
+    <div class="logo">HealthCare</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <section class="section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">General Consultation</div>
+      <div class="service-card">Dental Care</div>
+      <div class="service-card">Cardiology</div>
+      <div class="service-card">Physiotherapy</div>
+      <div class="service-card">Emergency Support</div>
+      <div class="service-card">Eye Care</div>
+    </div>
+  </section>
+
+</body>
+</html>
